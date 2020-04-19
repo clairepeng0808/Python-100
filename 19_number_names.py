@@ -108,7 +108,7 @@ if __name__ == '__main__':
     sliced = slice(num)
     get_three(sliced)
     
-    
+    # not done yet
     
     
 
