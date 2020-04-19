@@ -87,7 +87,8 @@ def choose_game():
         elif game == 'e':
             is_e_game = True
             break
-        
+        elif game == 'c':
+            continue
         else:
             print('Please choose a generator. pi or e')
             continue
