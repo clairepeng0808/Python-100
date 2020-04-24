@@ -21,25 +21,11 @@ def enter_string():
             print('Incorrect format! Please enter a string: ')
             continue
 
-def replay():
-    
-    while True:
-        
-        replay = input('Are you going to replay? y or n: ').lower()[0]
-        
-        if replay != 'y' and replay != 'n':
-            continue
-        
-        elif replay == 'y':
-            return True
-        
-        else:
-            print('Goodbye!')
-            return False
+import utility
 
 while True:
     string = enter_string()
     print(string[::-1])
     
-    if not replay():
+    if not utility.replay():
         break
