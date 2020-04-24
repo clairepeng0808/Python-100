@@ -15,7 +15,6 @@ def enter_string():
      return s
 
 
-
 from utility import utility as util
 
 while True:
