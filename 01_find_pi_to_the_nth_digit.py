@@ -17,6 +17,7 @@ from math import pi
 from math import e
 
 class Game:
+    
     def __init__(self, name):
         self.name = name
     
@@ -29,25 +30,21 @@ class Game:
     def enter_number(self):
     
         while True:
+            
             try:
                 num = int(input(f'please enter a number of your {self.name} decimal places.'))
                 
             except ValueError:
                 print('Please enter an integer!')
-                continue
-                
+
             except Exception as e:
-                print(e)
                 print('Please re-enter a number!')
-                continue
-                
+                                
             else:
                 if num <= 0:
                     print('Please enter a positive number.')
-                    continue
                 else:
                     return num
-                    break
                 
                 
 class PiGame(Game):

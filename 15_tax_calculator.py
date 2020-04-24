@@ -17,7 +17,7 @@ tax_rates = {
     'TW' : .07
 }
 
-def enter_cost():
+def enter_float():
     
     while True:
         
