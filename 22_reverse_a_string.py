@@ -11,21 +11,16 @@ Enter a string and the program will reverse it and print it out.
 
 def enter_string():
     
-    while True:
-        
-        try:
-            s = str(input('Please enter a string: '))
-            return s
-        
-        except ValueError:
-            print('Incorrect format! Please enter a string: ')
-            continue
+     s = str(input('Please enter a string: '))
+     return s
 
-import utility
+
+
+from utility import utility as util
 
 while True:
     string = enter_string()
-    print(string[::-1])
+    print(f'Your reversed string is "{string[::-1]}".')
     
-    if not utility.replay():
+    if not util.replay():
         break
