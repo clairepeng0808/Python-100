@@ -17,14 +17,11 @@ def enter_string():
     return string
 
 def check_palindrome(string):
-    
-    if string[:] == string[::-1]:
-        return True
-    else:
-        return False
+    return string[:] == string[::-1]
     
 
 while True:
+    
     string = enter_string()
     
     if check_palindrome(string):
