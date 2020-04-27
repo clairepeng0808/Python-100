@@ -41,6 +41,7 @@ while True:
     group = return_sum(count)
     
     print(f'I found {len(count)} vowels in the string!')
+    
     for l,t in group:
         if t == 1:
             print(f'Vowel \'{l}\': found {t} occurence')
