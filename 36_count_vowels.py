@@ -9,13 +9,14 @@ Created on Mon Apr 27 15:16:48 2020
 of vowels in the text. For added complexity have it report a sum 
 of each vowel found.
 """
+
 import itertools 
 from utility import utility as util
 
 vowels = ['a','e','i','o','u']
 
 def enter_string():
-    string = input('Enter a string: ')    
+    string = input('Enter a string: ').lower()    
     return string
         
 
