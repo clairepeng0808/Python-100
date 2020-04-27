@@ -9,6 +9,7 @@ Created on Mon Apr 27 15:52:44 2020
 is a palindrome. That is that it reads the same forwards as backwards 
 like “racecar”
 """
+
 from utility import utility as util
 
 def enter_string():
@@ -25,9 +26,6 @@ def check_palindrome(string):
 
 while True:
     string = enter_string()
-    print(string)
-    string.reverse()
-    print(string)
     
     if check_palindrome(string):
         print(f'Congrats! The string \'{string}\' is a palindrome.')
