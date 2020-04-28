@@ -21,10 +21,10 @@ def enter_string():
         
 
 def count_vowel(string):   
-    count = []
-    for i in string:
-        if i in vowels:
-            count.append(i)
+    count = [i for i in string if i in vowels]
+    #for i in string:
+    #    if i in vowels:
+    #        count.append(i)
     return count
     
 def return_sum(count):
