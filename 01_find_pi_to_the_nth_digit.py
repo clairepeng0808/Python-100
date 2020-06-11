@@ -3,7 +3,7 @@
 """
 Created on Wed Apr  8 16:06:50 2020
 
-@author: 
+@author: clairepeng
 
 **Find PI to the Nth Digit** - 
 
