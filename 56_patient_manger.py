@@ -69,6 +69,7 @@ def input_patient_name():
 Claire = Doctor('Claire')
 Tony = Doctor('Tony')
 Bagel = Doctor('Bagel')
+
 doctors = {
     'Claire': Claire,
     'Tony': Tony,
